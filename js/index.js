@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $(function(){
-        var austDay = new Date()
-        austDay = new Date(austDay.getFullYear() + 1, 1-1, 26)
-        $('#defultCountdown').countdown({until:austDay, format:'odHMS'})
-    })
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+        $('#defaultCountdown').countdown({until: austDay, format: 'odHMS'});
+});
 
     
     
